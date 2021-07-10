@@ -1,4 +1,4 @@
-FROM ralpheichelberger/ardupilot-pixhauk1-builer
+FROM ralpheichelberger/ardupilot-pixhawk1:latest
 
 WORKDIR /home/ardupilot
 
