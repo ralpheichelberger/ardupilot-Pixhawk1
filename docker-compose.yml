@@ -1,0 +1,6 @@
+version: "3"
+services:
+  pixhawk1_build:
+    build: .
+    volumes:
+      - "./build/:/home/ardupilot/build/"
