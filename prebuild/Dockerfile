@@ -1,6 +1,6 @@
 FROM ardupilot/ardupilot-dev-clang:latest
 WORKDIR /home/
-
+RUN python -m pip install empy
 RUN apt update
 RUN apt install -y gcc-arm-none-eabi
 
